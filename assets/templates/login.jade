@@ -1,0 +1,16 @@
+#login
+  h1 Login
+  form.login.form-horizontal(action='/', method='POST')
+
+    .control-group
+      label.control-label(for='user') Email
+      .controls
+        input#user(type='user', name='user', value='gentoo')
+    .control-group
+      label.control-label(for='password') Password
+      .controls
+        input#password(type='password', name='password', value='password')
+
+    .control-group
+      .controls
+        input.btn.btn-info(type='submit', value='Get In →')
